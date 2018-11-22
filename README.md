@@ -23,9 +23,11 @@ That leaves us with an overall approach:
 1) Download the mapping, and all files that need restoring using a tool like FastGlacier
 2) Edit my Python file with a text editor (notepad, WordPad, Notepad++, Sublime, etc.) and set the following three lines to the appropriate values
 
-    frmdir = 'C:/Users/Kees/Downloads/Glacier/'
-    dstdir = 'C:/Users/Kees/Pictures/'
-    mapping = 'mapping.sqlite3'
+```
+frmdir = 'C:/Users/Kees/Downloads/Glacier/'
+dstdir = 'C:/Users/Kees/Pictures/'
+mapping = 'mapping.sqlite3'
+```
 
 3) Run the script. The original directory hierarchy will be recreated under `dstdir`.
 
